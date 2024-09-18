@@ -93,3 +93,28 @@
     gap: 20px;
     display: flex;
 }
+.this__container {
+    margin-top: 80px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 60px;
+    border: solid 2px greenyellow;
+}
+.this__title {
+    text-align: center;
+    font-size: 34px;
+    padding-top: 40px;
+}
+.this__main-image {
+    height: 400px;
+    width: 400px;
+    padding: 60px;
+}
+.this__main-text {
+    width: 1200px;
+    font-size: 28px;
+}
+.this__main {
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
