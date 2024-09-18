@@ -36,3 +36,23 @@
     font-size: 24px;
     list-style: none;
 }
+.github {
+    text-align: center;
+}
+.github__container {
+    background-color: rgb(78, 78, 78);
+    width: 800px;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-radius: 80px;
+    border: solid 2px red;
+}
+.github__image {
+    width: 100px;
+    height: 100px;
+    padding-bottom: 20px;
+}
+.github__title {
+    font-size: 34px;
+    padding-top: 20px;
+}
