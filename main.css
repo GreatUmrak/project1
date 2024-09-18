@@ -1,0 +1,38 @@
+.body {
+    background-color: rgb(19, 18, 18);
+    color: white;
+}
+.header {
+    display: flex;
+}
+.header__container {
+    width: 100%;
+    background-color: rgb(78, 78, 78);
+    display: flex;
+    align-items: center;
+    border-bottom: solid 2px red;
+    border-right: solid 2px orange;
+    border-left: solid 2px purple;
+    border-top: solid 2px blue;
+}
+.header__logo {
+    margin-left: 50px;
+    display: flex;
+    align-items: center;
+}
+.header__logo-image {
+    width: 80px;
+    height: 80px;
+}
+.header__logo-text {
+    font-size: 56px;
+}
+.list {
+    margin-left: 200px;
+    display: flex;
+    gap: 25px;
+}
+.list__item {
+    font-size: 24px;
+    list-style: none;
+}
