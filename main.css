@@ -118,3 +118,31 @@
     display: flex;
     align-items: center;
 }
+.function__container {
+    margin: 80px;
+    padding: 40px;
+    background-color: rgb(78, 78, 78);
+    border-radius: 60px;
+}
+.function__title {
+    text-align: center;
+    font-size: 34px;
+}
+.function__table {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.tab {
+    margin-left: 110px;
+    text-align: center;
+    background-color: grey;
+    width: 600px;
+    border-radius: 60px;
+}
+.tab__title {
+    font-size: 32px;
+}
+.tab__text {
+    padding: 15px;
+    font-size: 24px;
+}
